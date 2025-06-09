@@ -1,0 +1,8 @@
+# requirements.txt for Vercel Python deployment
+fastapi
+uvicorn
+httpx
+matplotlib
+pandas
+plotly
+requests

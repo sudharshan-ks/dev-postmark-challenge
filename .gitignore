@@ -1,0 +1,28 @@
+# .gitignore
+# Ignore Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore SQLite databases and logs
+# *.db
+# *.sqlite3
+*.log
+
+# Ignore Jupyter notebooks
+*.ipynb
+
+# Ignore images and generated plots
+*.png
+img-*.png
+
+# Ignore PlantUML diagrams
+northwind*puml
+
+# Ignore sample and synthetic data files
+northwind_sample_100.sql
+northwind_sample_data.sql
+# *.sql
+
+# Ignore local scripts
+bali.py
